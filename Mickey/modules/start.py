@@ -90,12 +90,12 @@ async def welcome(_, m: Message):
 
 
 
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+# logging.basicConfig(level=logging.INFO)
+# logger = logging.getLogger(__name__)
 
-AUTO_SLEEP = 5
-IS_BROADCASTING = False
-broadcast_lock = asyncio.Lock()
+# AUTO_SLEEP = 5
+# IS_BROADCASTING = False
+# broadcast_lock = asyncio.Lock()
 
 
 @Client.on_message(filters.command(["broadcast", "gcast"]))
