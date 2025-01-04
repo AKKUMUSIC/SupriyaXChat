@@ -98,7 +98,7 @@ async def welcome(_, m: Message):
 # broadcast_lock = asyncio.Lock()
 
 
-@Client.on_message(filters.command(["broadcast", "gcast"]))
+@MickeyBot.on_message(filters.command(["broadcast", "gcast"]))
 async def broadcast_message(client, message):
     global IS_BROADCASTING
     bot_id = (await client.get_me()).id
