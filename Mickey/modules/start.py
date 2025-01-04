@@ -8,6 +8,7 @@ from pyrogram import filters
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardMarkup, Message
 
+from Mickey import OWNER, MickeyBot
 from config import EMOJIOS, IMG, STICKER
 from Mickey import MickeyBot
 from Mickey.database.chats import add_served_chat
