@@ -4,6 +4,7 @@ from pyrogram import filters, Client
 from pyrogram.types import Message
 
 from Mickey import OWNER, MickeyBot
+from pyrogram.errors import FloodWait, ChatAdminRequired
 from Mickey.database.chats import get_served_chats
 from Mickey.database.users import get_served_users
 
