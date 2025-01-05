@@ -4,7 +4,7 @@ import psutil
 import config
 from pyrogram import filters, Client
 from pyrogram.types import Message
-from Mickey import Mickey, mongo
+from Mickey import MickeyBot, mongo
 from pymongo import MongoClient
 from pyrogram.enums import ChatType
 from pyrogram import Client, filters
