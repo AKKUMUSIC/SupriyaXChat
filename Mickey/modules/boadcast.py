@@ -7,7 +7,8 @@ from Mickey.database.users import get_served_users
 
 
 @MickeyBot.on_message(filters.command("brodcast") & filters.user(OWNER))
-global IS_BROADCASTING
+async def stats(cli: Client, message: Message):
+    global IS_BROADCASTING
     async with broadcast_lock:
         if IS_BROADCASTING:
             return await message.reply_text(
