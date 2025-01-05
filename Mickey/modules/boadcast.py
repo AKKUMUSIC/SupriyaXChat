@@ -6,6 +6,14 @@ from Mickey.database.chats import get_served_chats
 from Mickey.database.users import get_served_users
 
 
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+AUTO_SLEEP = 5
+IS_BROADCASTING = False
+broadcast_lock = asyncio.Lock()
+
 @MickeyBot.on_message(filters.command("brodcast") & filters.user(OWNER))
 async def stats(cli: Client, message: Message):
     global IS_BROADCASTING
