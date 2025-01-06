@@ -45,7 +45,7 @@ async def start(_, m: Message):
         await m.reply_photo(
             photo=random.choice(IMG),
             caption=f"""<blockquote><b>๏Aarush ʜᴇʏ,</b> ɪ ᴀᴍ {MickeyBot.name}</blockquote>\n<blockquote>➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.</blockquote>\n──────────────\n<blockquote>➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]</blockquote>\n<blockquote><b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ||</b></blockquote>""",
-            reply_markup=keyboard,
+           # reply_markup=keyboard,
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
         await add_served_user(m.from_user.id)
