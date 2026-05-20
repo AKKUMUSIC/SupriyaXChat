@@ -10,7 +10,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", None)
 OWNER_ID = int(getenv("OWNER_ID",8556819933))
 MONGO_URL = getenv("MONGO_URL", None)
 SUPPORT_GRP = getenv("SUPPORT_GRP", "AkashUpdate")
-UPDATE_CHNL = getenv("UPDATE_CHNL", "https://t.me/AkashBotNetwork")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "AkashBotNetwork")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "I_RAMBHAKT_I")
 
 
