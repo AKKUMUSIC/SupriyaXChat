@@ -13,6 +13,7 @@ SUPPORT_GRP = getenv("SUPPORT_GRP", "https://t.me/AkashUpdate")
 UPDATE_CHNL = getenv("UPDATE_CHNL", "https://t.me/AkashBotNetwork")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "I_RAMBHAKT_I")
 
+
 # Random Start Images
 IMG = [
     "https://te.legra.ph/file/5bf629d10afd4af953585.jpg",
