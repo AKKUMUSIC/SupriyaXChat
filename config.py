@@ -7,10 +7,10 @@ load_dotenv()
 API_ID = int(getenv("API_ID", 20771927))
 API_HASH = getenv("API_HASH", "064380868de75194d91be77d7d439353")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = int(getenv("OWNER_ID", 7857346178))
+OWNER_ID = int(getenv("OWNER_ID",8556819933))
 MONGO_URL = getenv("MONGO_URL", None)
-SUPPORT_GRP = getenv("SUPPORT_GRP", "BotXBazaar")
-UPDATE_CHNL = getenv("UPDATE_CHNL", "BotXBazaar")
+SUPPORT_GRP = getenv("SUPPORT_GRP", "https://t.me/AkashUpdate")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "https://t.me/AkashBotNetwork")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "I_RAMBHAKT_I")
 
 # Random Start Images
